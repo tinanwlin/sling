@@ -42,3 +42,8 @@ config :sling, Sling.Repo,
   pool_size: 10
 
 
+# add the secret_key
+config :guardian, Guardian,
+  secret_key: "fGHrzywtqBYUElD4EE7v81S+OEIfAR/PSZ12wU2qrH+FQfMT1CecoqFmtrfKcoJD"
+
+
